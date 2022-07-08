@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #191919;
+    font-family: 'DM Sans' ;
+}
+.container{
+    margin: 0 auto;
+    width: 1440px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+
+}
+.navbar h1{
+    font-size: 60px;
+}
+.nav-list a{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 40px;
+}
+.nav-list a:hover{
+    color: #118DA8;
+}
+.head-one{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-one li{
+    width: 550px;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+    color: #FFFFFF;
+    margin-right: 130px;
+    list-style: none;
+}
+.head-one p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 90px;
+    margin-bottom: -20px;
+    padding-bottom: -150px;
+}
+.section-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.section-head h1{
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 79px;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;
+}
+.section-head .btn{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #FFFFFF;
+    background: #118DA8;
+    border-radius: 6px;
+    height: 51px;
+}
+.section-box{
+    display: flex;
+    align-items: flex-start;
+    background: #000;
+    border-radius: 32px;
+    margin-top: 60px;
+}
+.section-box img{
+    margin: 40px;
+}
+.section-box ul{
+    margin-top: 48px;
+    margin-left: 50px;
+    list-style: none;
+    color: #fff;
+}
+.section-box span{
+    height: 27px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    background: #191919;
+    border-radius: 6px;
+    padding:5px 16px ;
+}
+.section-box .spn{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #118DA8;
+    margin-top: 48px;
+}
+.section-box li .txt{
+    margin-top: -0.5px;
+    width: 700px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70px;
+    letter-spacing: 2.56px;
+    color: #FFFFFF;
+}
+.section-box .txt-1{
+    margin-top: -50px;
+    width: 750px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.section-box .btn{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    background: #118DA8;
+    border-radius: 6px;
+    height: 51px;
+    margin-top: 20px;
+}
+.section-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 260px;
+}
+.section-body .txt{
+    margin-top: 60px;
+    color: #fff;
+}
+.section-body .btn-2{
+    height: 112px;
+    width: 112px;
+    background: #118DA8;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.section-body .btn-2 i{
+    color: #fff;
+    height: 38px;
+    width: 71px;
+    font-size: 50px;
+}
+.section-body span{
+    padding-top: 100px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #118DA8;
+}
+.section-body h3{
+    margin: 0;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 79px;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;
+}
+.section-body p{
+    width: 570px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.section-body-2{
+    width: 1440px;
+    height: 380px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+    background: #000000;
+    border-radius: 32px;
+}
+.section-body-2 .txt-3{
+    margin-left: 60px;
+}
+.section-body-2 .txt-3 span{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #118DA8;
+}
+.section-body-2 .txt-3 h3{
+    width: 430px;
+    font-weight: 400;
+    margin: 0;
+    font-size: 72px;
+    line-height: 79px;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;
+}
+.section-body-2 form{
+    display:flex;
+    flex-direction: column;
+}
+.section-body-2 input{
+    margin-top: 20px;
+    padding-left: 20px;
+    width:522px;
+    height:82px;
+    margin-right: 60px;
+    background: #191919;
+    border: 1px solid #191919;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.section-body-2 .submit{
+    display: flex;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.7);
+    width:95px;
+    height:48px;
+    background: #118DA8;
+    border-radius: 6px;
+}
+.section-rows{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section-rows .row{
+    width: 450px;
+    height: 320px;
+    background: #000000;
+    border-radius: 32px;
+    margin-top: 26px;
+}
+.section-rows .column{
+    padding-top: 50px;
+    margin: 0 50px;
+}
+.section-rows h4{
+    margin: 0;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+.section-rows p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.footer{
+    height: 440px;
+    margin-top: 200px;
+    color: #fff;
+    display: flex;
+}
+.foot-head h2{
+    margin: 0;
+    font-size: 50px;
+}
+.foot-head .icons{
+    margin-left: -18px;
+}
+.foot-head .icons i{
+    margin-top: 25px;
+    margin-left: 18px;
+    height: 24px;
+    font-size: 30px;
+}
+.footer ul{
+    display: flex;
+    margin-right: 400px;
+    list-style: none;
+}
+.footer ul li{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+.footer ul a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px
+}
